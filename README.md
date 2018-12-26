@@ -1,4 +1,4 @@
-# Grokking Algorithms,
+# Grokking Algorithms Book Club
 
 [comment]: Links:
 [melanie]: https://github.com/melaniebrgr
