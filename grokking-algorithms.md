@@ -14,13 +14,14 @@
 **Book-club members:**
 [melanie], [stephanie], [nick], [stefan], [meltem], [sarah], [jocelyn], [shaun], [sean]
 
-Meeting schedule:
-| Chapters | Date | Location | Comments & questions to discuss
-|----------|------|----------|---------------------------------
-| 8 | Jan. 9, 4pm | Boardroom 2.0 | [Google Doc](https://docs.google.com/document/d/1wYjQb_iBIHEaGA7MTJFRV886mVsftfS2W4rSmWT4A4k/edit?usp=sharing)
-| 9 | Jan. 9, 4pm | Boardroom 2.0 | [Google Doc](https://docs.google.com/document/d/1wYjQb_iBIHEaGA7MTJFRV886mVsftfS2W4rSmWT4A4k/edit?usp=sharing)
-| 10 | Jan. 23, 4pm | Isomorphic Scrum | [Google Doc](https://docs.google.com/document/d/1wYjQb_iBIHEaGA7MTJFRV886mVsftfS2W4rSmWT4A4k/edit?usp=sharing)
-| 11 | Jan. 23, 4pm | Isomorphic Scrum | [Google Doc](https://docs.google.com/document/d/1wYjQb_iBIHEaGA7MTJFRV886mVsftfS2W4rSmWT4A4k/edit?usp=sharing)
+**Meeting schedule:**
+
+| Chapters | Date         | Location         | Comments & questions to discuss                                                                                |
+| -------- | ------------ | ---------------- | -------------------------------------------------------------------------------------------------------------- |
+| 8        | Jan. 9, 4pm  | Boardroom 2.0    | [Google Doc](https://docs.google.com/document/d/1wYjQb_iBIHEaGA7MTJFRV886mVsftfS2W4rSmWT4A4k/edit?usp=sharing) |
+| 9        | Jan. 9, 4pm  | Boardroom 2.0    | [Google Doc](https://docs.google.com/document/d/1wYjQb_iBIHEaGA7MTJFRV886mVsftfS2W4rSmWT4A4k/edit?usp=sharing) |
+| 10       | Jan. 23, 4pm | Isomorphic Scrum | [Google Doc](https://docs.google.com/document/d/1wYjQb_iBIHEaGA7MTJFRV886mVsftfS2W4rSmWT4A4k/edit?usp=sharing) |
+| 11       | Jan. 23, 4pm | Isomorphic Scrum | [Google Doc](https://docs.google.com/document/d/1wYjQb_iBIHEaGA7MTJFRV886mVsftfS2W4rSmWT4A4k/edit?usp=sharing) |
 
 ## Chapter 8 - Greedy algorithms
 
