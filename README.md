@@ -11,7 +11,7 @@
 [shaun]: https://github.com/ShaunLloyd
 [sean]: https://github.com/seanmay
 
-**Book-club members:**
+**Members:**
 [melanie], [stephanie], [nick], [stefan], [meltem], [sarah], [jocelyn], [shaun], [sean]
 
 **Meeting schedule:**
