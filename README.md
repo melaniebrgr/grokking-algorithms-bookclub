@@ -22,3 +22,6 @@
 | 9        | Jan. 9, 4pm  | Boardroom 2.0    | [Google Doc](https://docs.google.com/document/d/1wYjQb_iBIHEaGA7MTJFRV886mVsftfS2W4rSmWT4A4k/edit?usp=sharing) |
 | 10       | Jan. 23, 4pm | Isomorphic Scrum | [Google Doc](https://docs.google.com/document/d/1wYjQb_iBIHEaGA7MTJFRV886mVsftfS2W4rSmWT4A4k/edit?usp=sharing) |
 | 11       | Jan. 23, 4pm | Isomorphic Scrum | [Google Doc](https://docs.google.com/document/d/1wYjQb_iBIHEaGA7MTJFRV886mVsftfS2W4rSmWT4A4k/edit?usp=sharing) |
+
+**Chapter summaries:**
+[Add chapter summaries to this file](./grokking-algorithms.md)
