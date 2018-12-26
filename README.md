@@ -13,7 +13,7 @@
 
 **Meeting schedule:**
 
-| Chapters | Date         | Location         | Presenters  |
+| Chapters | Date         | Location         | Summarizer  |
 | -------- | ------------ | ---------------- | ----------- |
 | 8        | Jan. 9, 4pm  | Boardroom 2.0    | [melanie]   |
 | 9        | Jan. 9, 4pm  | Boardroom 2.0    | [stephanie] |
