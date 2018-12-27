@@ -1,5 +1,3 @@
-# Grokking Algorithms Book Club
-
 [comment]: Links:
 [melanie]: https://github.com/melaniebrgr
 [stephanie]: https://github.com/stephanie56
@@ -10,6 +8,8 @@
 [jocelyn]: https://github.com/jocelynjeffrey
 [shaun]: https://github.com/ShaunLloyd
 [sean]: https://github.com/seanmay
+
+# Grokking Algorithms Book Club
 
 **Meeting schedule:**
 

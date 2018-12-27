@@ -1,3 +1,14 @@
+[comment]: Links:
+[melanie]: https://github.com/melaniebrgr
+[stephanie]: https://github.com/stephanie56
+[nick]: https://github.com/NicholasGWK
+[stefan]: https://github.com/stefannew
+[meltem]: https://github.com/turquoisemelon
+[sarah]: https://github.com/srhboo
+[jocelyn]: https://github.com/jocelynjeffrey
+[shaun]: https://github.com/ShaunLloyd
+[sean]: https://github.com/seanmay
+
 # Chapter Summaries
 
 ## Chapter 8 - Greedy algorithms
