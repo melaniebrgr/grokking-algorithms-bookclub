@@ -27,4 +27,4 @@
 [Add comments and questions to discuss during meetings to this google doc](https://docs.google.com/document/d/1wYjQb_iBIHEaGA7MTJFRV886mVsftfS2W4rSmWT4A4k/edit?usp=sharing)
 
 **Chapter summaries:**
-[Add chapter summaries to this file](./grokking-algorithms.md)
+[Add chapter summaries to this file](./chapter-summaries.md)
