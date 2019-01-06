@@ -64,6 +64,26 @@ const selectionSort = array => {
 };
 ```
 
+## Chapter 3 - Recursion
+
+TODO: summary
+
+## Chapter 4 - Quick sort
+
+TODO: summary
+
+## Chapter 5 - Hash tables
+
+TODO: summary
+
+## Chapter 6 - Breadth-first search
+
+TODO: summary
+
+## Chapter 7 - Dijkstra's algorithm
+
+TODO: summary
+
 ## Chapter 8 - Greedy algorithms
 
 Greedy algorithms are simple. A greedy algorithm finds the optimal solution at each step, called the "local minimum", with the aim that it will lead to the overall best solution, or the "global minimum". For example, a greedy strategy for the **knapsack** problem is to find the most expensive item that fits in the knapsack for each turn. Finding the global minimum is not guaranteed, however. In the case of the knapsack problem, several smaller, less expensive items would have added up to more than just taking the most expensive.
