@@ -94,7 +94,7 @@ While they may not find the global minimum, greedy algorithms can get close. For
 // TODO: JS implementation of a greedy radio station set-covering problem
 ```
 
-When an algorithm would take an unreasonable amount of time to complete, the problem may be a NP-complete problem. In fact, nondeterministic polynomial time (NP) complete problems are characterized by time required to solve the problem growing rapidly with size. They have no known fast solutions. A problem may be NP-complete when it
+When an algorithm would take an unreasonable amount of time to complete, the problem may be a NP-complete problem. In fact, non-deterministic polynomial time (NP) complete problems are characterized by time required to solve the problem growing rapidly with size. They have no known fast solutions. A problem may be NP-complete when it
 
 - slows down rapidly as the size of the problem grows (polynomial time)
 - requires the calculation of every possible version
@@ -102,22 +102,22 @@ When an algorithm would take an unreasonable amount of time to complete, the pro
 
 Examples of known NP-complete problems include the **knapsack** problem, the **travelling salesmen** problem, the **hamiltonian path** problem, the **subset sum** problem, **graph coloring** problem.
 
-###### authors: [melanie]
-
 ## Chapter 9 - Dynamic programming
 
-While approximation algorithms can come close, dynamic programming can be used to find an optimal solution.
+Approximation algorithms may or may not find the correct solution and come close, but dynamic programming _can_ be used to find optimal solutions. It entails breaking a problem into a collection of simpler subproblems, solving those, and saving the results in a grid-like data-structure. The solutions for the subproblems are then used to solve the overall problem. The goal of dynamic programming is usually to optimize an outcome given a constraint, a.k.a. a "decision" problem. For example, my knapsack can hold 6 lbs., what should I steal to make the money? In the case of the **knapsack** problem, the goal is to optimize the total value of items in a knapsack given their combined weight is under a certain amount. In the **longest common substring** problem, the goal is to find the longest matching string of characters, (the constraint is that they must be contiguous?).
 
-###### authors:
+The key properties of dynamic programming are
+
+1. the problem can be broken into independent subproblems
+2. the solution involves a grid
+3. each grid-cell is a subproblem
+4. each subproblem is discrete - it can't depend on another subproblem
+5. you'll need to think real hard about the formula for filling in the grid cells
 
 ## Chapter 10 - K-nearest neighbours
 
 TODO: summary
 
-###### authors:
-
 ## Chapter 11 - Where to go next
 
 TODO: summary
-
-###### authors:
