@@ -32,13 +32,13 @@ const binarySearch = (arr, item) => {
 };
 ```
 
-Big O notation is used to communicate the run time of an algorithm, which is useful to decide which algorithm should be used. (Different algorithms "grow" at different rates). Common run times: O(logn) or log time < O(n) or linear time < O(nLogn) < O(n^2) < O(n!).
+Big O notation is used to communicate the run time of an algorithm, which is useful to decide which algorithm should be used. (Different algorithms "grow" at different rates). Common run times: `O(logn)` or log time < `O(n)` or linear time < `O(nLogn)` < `O(n^2)` < `O(n!)`.
 
 ## Chapter 2 - Selection sort
 
-Computer memory can be thought of as a chest of drawers. Arrays and linked lists are two ways to organize information into those drawers. While arrays store information contiguously in memory, linked-lists place items anywhere. For linked-lists each item stores the address to the next item in the list. This makes insertions and deletions faster for linked lists (O(1) vs. O(n)), but reading faster for arrays (O(1) vs. O(n)).
+Computer memory can be thought of as a chest of drawers. Arrays and linked lists are two ways to organize information into those drawers. While arrays store information contiguously in memory, linked-lists place items anywhere. For linked-lists each item stores the address to the next item in the list. This makes insertions and deletions faster for linked lists (`O(1)` vs. `O(n)`), but reading faster for arrays (`O(1)` vs. `O(n)`).
 
-Another common task is sorting. For example, a collection needs to be sorted before it binary search can be used, for example. One sorting algorithm is **selection sort**. Selection sort runs through the entire collection, finds the item that should be first, and places it first in new array. It is not very efficient, O(n^2).
+Another common task is sorting. For example, a collection needs to be sorted before it binary search can be used, for example. One sorting algorithm is **selection sort**. Selection sort runs through the entire collection, finds the item that should be first, and places it first in new array. It is not very efficient, `O(n^2)`.
 
 ```javascript
 // Recursive selection sort algorithm
@@ -68,9 +68,13 @@ const selectionSort = array => {
 
 TODO: summary
 
-## Chapter 4 - Quick sort
+## Chapter 4 - Quicksort
 
-TODO: summary
+Divide and conquer (D&C) is a recursive approach to solving problems. The goal is to be able to sequentially break a problem into smaller and smaller pieces until it is no longer divisible - the base case - and then zip up the smaller solutions into a larger solution to the larger problem. D&C has two steps:
+
+1. identify the base case - this is the simplest case
+2. find a way to break down the problem until the base case is reached
+   Examples of D&C application are **Euclid's** algorithm, which can be used to find the largest squares that can evenly divide a rectangle, and **quicksort**. In quicksort a list of numbers is divided at a pivot, then the sub-arrays are sorted above and below the pivot. The process is repeated with the sub-arrays. Quicksort grows in `O(nlogn)`, while selection sort grows in `O(n^2)`. It's coefficient is also slightly faster than **merge sort**, but Sean May notes that merge sort is safer.
 
 ## Chapter 5 - Hash tables
 
