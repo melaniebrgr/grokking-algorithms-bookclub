@@ -74,7 +74,8 @@ Divide and conquer (D&C) is a recursive approach to solving problems. The goal i
 
 1. identify the base case - this is the simplest case
 2. find a way to break down the problem until the base case is reached
-   Examples of D&C application are **Euclid's** algorithm, which can be used to find the largest squares that can evenly divide a rectangle, and **quicksort**. In quicksort a list of numbers is divided at a pivot, then the sub-arrays are sorted above and below the pivot. The process is repeated with the sub-arrays. Quicksort grows in `O(nlogn)`, while selection sort grows in `O(n^2)`. It's coefficient is also slightly faster than **merge sort**, but Sean May notes that merge sort is safer.
+
+Examples of D&C application are **Euclid's** algorithm, which can be used to find the largest squares that can evenly divide a rectangle, and **quicksort**. In quicksort a list of numbers is divided at a pivot, then the sub-arrays are sorted above and below the pivot. The process is repeated with the sub-arrays. Quicksort grows in `O(nlogn)`, while selection sort grows in `O(n^2)`. It's coefficient is also slightly faster than **merge sort**, but Sean May notes that merge sort is safer.
 
 ## Chapter 5 - Hash tables
 
