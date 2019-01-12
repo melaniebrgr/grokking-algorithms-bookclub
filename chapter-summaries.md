@@ -79,7 +79,19 @@ Examples of D&C application are **Euclid's** algorithm, which can be used to fin
 
 ## Chapter 5 - Hash tables
 
-TODO: summary
+Hash functions are functions that map strings to an index to enable the `O(1)` lookup of the value in an array-like data structure. There are three requirements for a hash function:
+
+- the same input string should always returns the same index
+- different input strings should map to different indexes (avoid collisions!)
+- a hash function should never return indexes larger than are in the array
+
+A hash function + array = a hash table (aka hash map, maps, dictionaries, objects). While arrays and linked-lists "map straight to memory", hash tables have extra logic to them. Hash tables are useful for
+
+- lookups, e.g. DNS resolution
+- checking for duplicates
+- caching data
+
+A good has function distributes values evenly within an array, which is kept at a low load factor. However, it's hard to write a hash functions that maps different strings to different indexes perfectly. A collision occurs when a hash function assigns data to the same "slot". If data would be assigned to the same slot, a linked list is used to store values at that index.
 
 ## Chapter 6 - Breadth-first search
 
