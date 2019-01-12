@@ -95,7 +95,55 @@ A good has function distributes values evenly within an array, which is kept at 
 
 ## Chapter 6 - Breadth-first search
 
-TODO: summary
+A graph models a set of relationships between items. Items comprise the nodes of the graph and the lines or arrows between the nodes are the edges.
+
+```javascript
+// Example implementation of a graph
+const you = { name: "you", mangoSeller: false };
+const bob = { name: "bob", mangoSeller: true };
+const alice = { name: "alice", mangoSeller: true };
+const claire = { name: "claire", mangoSeller: true };
+const anuj = { name: "anuj", mangoSeller: true };
+
+const graph = {
+  you: [alice, bob, claire],
+  bob: [anuj, alice],
+  alice: [anuj],
+  claire: [bob, alice],
+  anuj: []
+};
+```
+
+If a problem can be modelled as a graph, a **breadth-first search** algorithm can be used to find 1) if a path exists, or 2) the shortest-path to the solution. A breadth-first search radiates out from a starting point: first-degree connections are checked before second-degree connections a.k.a first-degree connections are enqueued before second degreed connections. Nb. The definition of a queue is that is is FIFO. The definition of a stack is that it is LIFO.
+
+```javascript
+// Imperative breadth-first search algorithm implementation
+const breadthFirstSearch = person => {
+  let queue = [person];
+  const searched = [];
+
+  while (queue.length > 0) {
+    const person = queue.shift();
+    const hasBeenSearched = Boolean(
+      searched.find(searched => searched.name === person.name)
+    );
+
+    if (!hasBeenSearched) {
+      if (person.mangoSeller === true) {
+        return person;
+      } else {
+        searched.push(person);
+        graph[person.name].forEach(neighbour => queue.push(neighbour));
+      }
+    }
+  }
+  return false;
+};
+```
+
+### Special types of graphs:
+
+A graph that orders items in order of their dependencies is a special type of graph for which a **topological sort** algorithm could be used to generate a list of items ordered by their dependencies. A tree is a special type of graph where no child nodes ever point back to parent nodes.
 
 ## Chapter 7 - Dijkstra's algorithm
 
