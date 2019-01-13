@@ -10,8 +10,7 @@
 [sean]: https://github.com/seanmay
 
 # Grokking Algorithms Book Club
-
-**Meeting schedule:**
+### Meeting schedule:
 
 | Chapters | Date         | Location         | Summarizer  |
 | -------- | ------------ | ---------------- | ----------- |
@@ -20,11 +19,11 @@
 | 10       | Jan. 23, 4pm | Isomorphic Scrum | [melanie]   |
 | 11       | Jan. 23, 4pm | Isomorphic Scrum | [sarah]     |
 
-**Members:**
+### Chapter resources:
+- [Add chapter summaries to this file](./chapter-summaries.md)
+- [Add comments and questions to discuss during meetings to this google doc](https://docs.google.com/document/d/1wYjQb_iBIHEaGA7MTJFRV886mVsftfS2W4rSmWT4A4k/edit?usp=sharing)
+
+### Contributors:
 [melanie], [stephanie], [nick], [stefan], [meltem], [sarah], [jocelyn], [shaun], [sean]
 
-**Chapter comments and questions:**
-[Add comments and questions to discuss during meetings to this google doc](https://docs.google.com/document/d/1wYjQb_iBIHEaGA7MTJFRV886mVsftfS2W4rSmWT4A4k/edit?usp=sharing)
 
-**Chapter summaries:**
-[Add chapter summaries to this file](./chapter-summaries.md)
