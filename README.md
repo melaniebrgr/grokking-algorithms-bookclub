@@ -17,8 +17,8 @@
 | -------- | ------------ | ---------------- | ----------- |
 | 8        | Jan. 9, 4pm  | Boardroom 2.0    | [melanie]   |
 | 9        | Jan. 9, 4pm  | Boardroom 2.0    | [stephanie] |
-| 10       | Jan. 23, 4pm | Isomorphic Scrum | TBD         |
-| 11       | Jan. 23, 4pm | Isomorphic Scrum | TBD         |
+| 10       | Jan. 23, 4pm | Isomorphic Scrum | [melanie]   |
+| 11       | Jan. 23, 4pm | Isomorphic Scrum | [sarah]     |
 
 **Members:**
 [melanie], [stephanie], [nick], [stefan], [meltem], [sarah], [jocelyn], [shaun], [sean]
