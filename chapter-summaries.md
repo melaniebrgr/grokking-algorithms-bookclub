@@ -114,7 +114,7 @@ const graph = {
 };
 ```
 
-If a problem can be modelled as a graph, a **breadth-first search** algorithm can be used to find 1) if a path exists, or 2) the shortest-path to the solution. A breadth-first search radiates out from a starting point: first-degree connections are checked before second-degree connections a.k.a first-degree connections are enqueued before second degreed connections. Nb. The definition of a queue is that is is FIFO. The definition of a stack is that it is LIFO.
+If a problem can be modelled as a graph, a **breadth-first search** (BFS) algorithm can be used to find 1) if a path exists, or 2) the shortest-path to the solution. A breadth-first search radiates out from a starting point: first-degree connections are enqueued and checked before second degree connections. Aside: the definition of a queue is that is is FIFO; the definition of a stack is that it is LIFO. A BFS grows with the number of nodes and edges.
 
 ```javascript
 // Imperative breadth-first search algorithm implementation
@@ -147,7 +147,17 @@ A graph that orders items in order of their dependencies is a special type of gr
 
 ## Chapter 7 - Dijkstra's algorithm
 
-TODO: summary
+A breadth-first search can be used to find the path with the fewest edges for an unweighted graph, **Dijkstra's** algorithm can be used to find the true, shortest path for weighted graphs, i.e. the path with the fewest edges might not actually be the shortest. Dijkstra's algorithm has four steps:
+
+1. Find the cheapest node (each edge is weighted)
+2. Check if there's a cheaper path to that nodes' neighbours and update their cost if so
+3. Repeat until every node is covered
+4. Calculate the final path
+   Dijkstra's algorithm can only be used for directed, acyclic graphs (no cycles), and graphs without negative weights (a negative value will subtract from the total, although is absolute terms it may be longer).
+
+```javascript
+// TODO: JS implementation of dijkstra's algorithm
+```
 
 ## Chapter 8 - Greedy algorithms
 
