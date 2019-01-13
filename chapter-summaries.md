@@ -191,7 +191,11 @@ The 5 characteristics of dynamic programming are
 
 ## Chapter 10 - K-nearest neighbours
 
-TODO: summary
+The central idea of the **K-nearest neighbours** (KNN) algorithm is that an item can be categorized (classification) and predictions can be made about it (regression) based on its nearest neighbours -- the items it is most similar to. For example, to predict how much a user will like a horror movie look at how their nearest neighbours rated that same horror movie. Any number of neighbours can be looked at 5 - 5000, which is why it is referred to as _K_.
+
+To determine which neighbours are nearest, features must be extracted and quantified, then the distance between those features is calculated using pythagoras. A KNN algorithm is only as valuable as the appropriateness or correctness of the features it evaluates. For example, to categorize whether a fruit is a cherry of a strawberry, size and shape features could be extracted, while colour might not be very useful.
+
+KNN is an important in machine learning, such as optical character recognition (OCR), which is used to convert images of text to text. Some problems are naturally ellusive where it comes to making predictions because it is hard to extract features for them, such as is the case with the stock market.
 
 ## Chapter 11 - Where to go next
 
