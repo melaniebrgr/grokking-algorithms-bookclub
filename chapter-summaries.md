@@ -191,12 +191,54 @@ The 5 characteristics of dynamic programming are
 
 ## Chapter 10 - K-nearest neighbours
 
-The central idea of the **K-nearest neighbours** (KNN) algorithm is that an item can be categorized (classification) and predictions can be made about it (regression) based on its nearest neighbours -- the items it is most similar to. For example, to predict how much a user will like a horror movie look at how their nearest neighbours rated that same horror movie. Any number of neighbours can be looked at 5 - 5000, which is why it is referred to as _K_.
+The main idea of a **K-nearest neighbours** (KNN) algorithm is that an item can be categorized (classification) and predictions can be made about it (regression) based on other items it is most similar to, its nearest neighbours. For example, to predict how much a user will like a horror movie, we look at how others users whose preferences they most align with rated that horror movie. Any number of neighbours can be looked at, 5 - 5000+, which is why it is referred to as _K_.
 
-To determine which neighbours are nearest, features must be extracted and quantified, then the distance between those features is calculated using pythagoras. A KNN algorithm is only as valuable as the appropriateness or correctness of the features it evaluates. For example, to categorize whether a fruit is a cherry of a strawberry, size and shape features could be extracted, while colour might not be very useful.
+To determine which neighbours are nearest, features must be extracted and quantified, then the distance between those features is calculated using pythagorean theorem. A KNN algorithm is only as valuable as the appropriateness or correctness of the features it evaluates. For example, to categorize whether a fruit is a cherry or a strawberry, size and shape features would be useful to extract, while colour would be less so.
 
-KNN is an important in machine learning, such as optical character recognition (OCR), which is used to convert images of text to text. Some problems are naturally ellusive where it comes to making predictions because it is hard to extract features for them, such as is the case with the stock market.
+KNN is important in machine learning, such as optical character recognition (OCR), which is used to convert images of text to text-text. Some problems are still elusive where it comes to making predictions because it near impossible to extract features for them, such as is the case with predicting the stock market.
 
 ## Chapter 11 - Where to go next
 
-TODO: summary
+A brief overview of 10 other algorithms
+
+### Binary trees
+
+A binary search tree data structure is conceptually similar to using a binary search on a sorted array. For every node in the tree, the nodes to the left and right of it are smaller and greater in value, respectively. For a binary search tree algorithm the best case search is `O(logn)` and worst is `O(n)`, but insertions and deletions are faster than for sorted arrays, at `O(logn)`. The algorithm's performance can be impacted by the shape of the tree: an unbalanced tree generally performs more poorly. A red-black tree is an example of a binary tree that balances itself.
+
+### Inverted indexes
+
+A hash map that maps words to places is useful for building search engines.
+
+### The fourier transform (FT)
+
+"Given a song, the fourier transform can seperate it into different frequencies", which makes the FT useful for processing signals. For example, it can break a song into ingredient notes. Note contribution can be evaluated and unimportant notes deleted -- the MP3 format. Shazam uses it to guess the song that is playing.
+
+### Parallel algorithms
+
+Algorithms can be made faster by running them in parallel, but parallel algorithms are hard to design and the time gains are not a simple halving by the number of parallel processes. Parallelism has its own overhead, include load balancing.
+
+### MapReduce
+
+MapReduce is an example of a distributed algorithm approach, i.e. on the can be run across hundreds of machines. The general idea is that the problem is solved across many machines (mapped), and the results are combined (reduced) to the final solution.
+
+### Bloom filters and HyperLogLog
+
+In cases where the data structure for a problem would be a hash table, but the hash table would be huge, e.g. a hash table of all websites on the internet, a bloom filter and HyperLogLog are alternatives. They provide answers that might be wrong but are probably correct.
+
+### SHA algorithms
+
+#### Comparing files
+
+A secure hash algorithm (SHA) is a hash function that will return a hash given a string. Given the same string, the same hash is returned. While a hash can be long, it is generally shorter than the original string and can be used check if two strings are are the same. SHAs are locally insensitive so that they can't be compared to determine how close the cracking the SHA is as an input string is modified. A Simhash is the opposite, it is locally sensitive so hashes can be compared to determine how similar the original strings are. Simhashes can be used to compare homework for similarity.
+
+#### Checking passwords
+
+SHA is also useful for comparing string when you don't want to reveal the original string. Passwords are commonly stored as their SHA encoded values. Nb. the current standard for password-hashing is bcrypt.
+
+### Diffie-Hellman key exchange
+
+Makes use of public and private keys for message encryption.
+
+### Linear programming
+
+The graph, optimization algorithms discussed previously in th ebook can also be solved with linear programming. Linear programming uses the Simplex algorithm.
